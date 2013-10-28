@@ -27,6 +27,8 @@ namespace E69IL2CoD
         public float YawLast { get; set; }
         public float YawRate { get; set; }
 
+        public float TAS { get; set; }
+
         public TelemetryInfo()
         {
             this.Clear();
